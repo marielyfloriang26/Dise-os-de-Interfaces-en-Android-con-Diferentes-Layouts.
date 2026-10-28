@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E88E5"
+    android:padding="16dp">
+
+    <!-- Fila 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="1. Pizza de Pepperoni"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Fila 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="2. Tacos"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Fila 3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="3. Hamburguesa"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Fila 4 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="4. Sushi Roll"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Fila 5 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="5. Lasaña"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Fila 1, Num del 1 al 4 -->
+    <TableRow>
+        <TextView android:text="1" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="2" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="3" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="4" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+    </TableRow>
+
+    <!-- Fila 2, num del 5 al 8 -->
+    <TableRow>
+        <TextView android:text="5" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="6" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="7" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="8" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+    </TableRow>
+
+    <!-- Fila 3, num 9, 10, 11 y un Boton en la celda 12 -->
+    <TableRow>
+        <TextView android:text="9" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="10" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="11" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <Button android:text="12" />
+    </TableRow>
+
+    <!-- Fila 4, num del 13 al 16 -->
+    <TableRow>
+        <TextView android:text="13" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="14" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="15" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+        <TextView android:text="16" android:gravity="center" android:padding="16dp" android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>
